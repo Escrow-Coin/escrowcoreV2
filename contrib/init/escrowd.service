@@ -1,0 +1,26 @@
+[Unit]
+Description=ESCO's distributed currency daemon
+After=network.target
+
+[Service]
+User=escrow
+Group=escrow
+
+Type=forking
+PIDFile=/var/lib/escrowd/escrowd.pid
+
+ExecStart=/usr/bin/escrowd -daemon -pid=/var/lib/escrowd/escrowd.pid \
+          -conf=/etc/escrow/escrow.conf -datadir=/var/lib/escrowd
+
+ExecStop=-/usr/bin/escrow-cli -conf=/etc/escrow/escrow.conf \
+         -datadir=/var/lib/escrowd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

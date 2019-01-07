@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ESCO
+Comment=ESCO P2P Cryptocurrency
+Comment[fr]=ESCO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ESCO, eşten eşe kriptografik sanal para birimi
+Exec=escrow-qt %u
+Terminal=false
+Type=Application
+Icon=escrow128
+MimeType=x-scheme-handler/escrow;
+Categories=Office;Finance;

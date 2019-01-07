@@ -1,0 +1,35 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/escrow_bg.qm</file>
+        <file alias="ca">locale/escrow_ca.qm</file>
+        <file alias="cs">locale/escrow_cs.qm</file>
+        <file alias="da">locale/escrow_da.qm</file>
+        <file alias="de">locale/escrow_de.qm</file>
+        <file alias="en">locale/escrow_en.qm</file>
+        <file alias="en_US">locale/escrow_en_US.qm</file>
+        <file alias="es">locale/escrow_es.qm</file>
+        <file alias="es_ES">locale/escrow_es_ES.qm</file>
+        <file alias="fi">locale/escrow_fi.qm</file>
+        <file alias="fr_FR">locale/escrow_fr_FR.qm</file>
+        <file alias="hi_IN">locale/escrow_hi_IN.qm</file>
+        <file alias="hr">locale/escrow_hr.qm</file>
+        <file alias="hr_HR">locale/escrow_hr_HR.qm</file>
+        <file alias="it">locale/escrow_it.qm</file>
+        <file alias="ja">locale/escrow_ja.qm</file>
+        <file alias="ko_KR">locale/escrow_ko_KR.qm</file>
+        <file alias="lt_LT">locale/escrow_lt_LT.qm</file>
+        <file alias="nl">locale/escrow_nl.qm</file>
+        <file alias="pl">locale/escrow_pl.qm</file>
+        <file alias="pt">locale/escrow_pt.qm</file>
+        <file alias="pt_BR">locale/escrow_pt_BR.qm</file>
+        <file alias="ro_RO">locale/escrow_ro_RO.qm</file>
+        <file alias="ru">locale/escrow_ru.qm</file>
+        <file alias="sk">locale/escrow_sk.qm</file>
+        <file alias="sv">locale/escrow_sv.qm</file>
+        <file alias="tr">locale/escrow_tr.qm</file>
+        <file alias="uk">locale/escrow_uk.qm</file>
+        <file alias="vi">locale/escrow_vi.qm</file>
+        <file alias="zh_CN">locale/escrow_zh_CN.qm</file>
+        <file alias="zh_TW">locale/escrow_zh_TW.qm</file>
+    </qresource>
+</RCC>
