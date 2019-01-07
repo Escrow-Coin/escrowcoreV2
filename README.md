@@ -1,7 +1,6 @@
 # EscrowCoin Core V2
 EscrowCoin V2 Core
 
-P## EscrowCoin
 __________________________________________________________________________
 
 ###### Block Time: ~150 seconds
