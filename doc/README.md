@@ -3,7 +3,7 @@ ESCO Core
 
 Setup
 ---------------------
-[ESCO Core](http://escrow.org/wallet) is the original ESCO client and it builds the backbone of the network. However, it downloads and stores the entire history of ESCO transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+ESCO Core is the original ESCO client and it builds the backbone of the network. However, it downloads and stores the entire history of ESCO transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
